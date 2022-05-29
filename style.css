@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Grape Nuts', cursive;
+}
+
+body{
+    background-image: url("img/light-live-background-css.jpg");
+}
+
+
+#fecha-pendientes{
+    margin-right: 45px;
+}
+
+.fechaD p{
+    display: inline-block;
+}
+
+
+
+.estiloNota{
+   
+    background-color: rgb(189, 138, 190);
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    
+   
+}
+
+.estiloNota p{
+    padding-top: 15px;
+    text-align: center;
+    
+}
+
+
+p{
+    word-wrap: break-word;
+}
+
+#tituloP{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+.boton_e{
+    margin-left: 20px;
+   
+}
+
+#nueva_tarea{
+    background-color:rgb(189, 138, 190);
+    border-style: dotted;
+    height: 50px;
+    width: 300px;
+}
+
+nav{
+    padding-left: 40px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: rgb(188, 159, 190);
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+#ventana_tareas{
+    background-color: rgb(128, 170, 206);
+    border-style:double;  
+    border-radius: 10%; 
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 40%;
+    height: 400px;
+    width: 400px;
+}
+
+#titulo{
+    margin-bottom: 5px;
+    
+}
